@@ -10,4 +10,10 @@
 
 ```powershell
 Install-WindowsFeature  AD-Domain-Services -IncludeManagementTools -Verbose
+# To check if the AD-Domain-Services has been installed or not use the following 
+Get-WindowsFeature -Name *AD*
+# This will list all the windows features that has AD and the AD-Domain-Services should be crossed
 ```
+![Imgur](https://i.imgur.com/yWyuiMo.png)
+
+3. 
